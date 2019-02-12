@@ -1,33 +1,33 @@
-import Listeners.Readylistenener;
+import Listeners.readyListener;
 import net.dv8tion.jda.core.AccountType;
+import net.dv8tion.jda.core.JDA;
 import net.dv8tion.jda.core.JDABuilder;
 import net.dv8tion.jda.core.events.Event;
 import net.dv8tion.jda.core.events.ReadyEvent;
 import net.dv8tion.jda.core.hooks.EventListener;
-import twitter4j.Twitter;
-import twitter4j.TwitterException;
-import twitter4j.TwitterFactory;
+import net.dv8tion.jda.core.hooks.ListenerAdapter;
+import twitter4j.*;
 
 import javax.security.auth.login.LoginException;
 
-public class test  {
-    public static void main(String args[]){
-        JDABuilder jda = new JDABuilder(AccountType.BOT);
-        try {
-            jda.setToken(Secret.token).build();
-            jda.addEventListener(new Readylistenener());
+public class test extends ListenerAdapter {
+    public static void main(String args[]) throws LoginException {
 
-        } catch (LoginException e) {
-            e.printStackTrace();
-        }
+        JDABuilder builder = new JDABuilder(AccountType.BOT);
+        String token = Secret.token;
+        builder.setToken(token);
+        JDA jda = builder.build();
+        System.out.println(jda.getGuilds().size());
+        builder.addEventListener(new readyListener());
 
-        Twitter twitter = TwitterFactory.getSingleton();
+       /**
+       Twitter twitter = TwitterFactory.getSingleton();
         try {
-            //twitter.updateStatus("Salut les boyz");
-            twitter.directMessages().sendDirectMessage("@Yoann_Beelzed", "Coucouu");
+            twitter.directMessages().sendDirectMessage("@Yoann_Beelzed", "coucou");
         } catch (TwitterException e) {
             e.printStackTrace();
         }
+      **/
     }
 
 
