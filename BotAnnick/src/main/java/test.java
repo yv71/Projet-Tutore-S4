@@ -21,13 +21,13 @@ public class test  {
             e.printStackTrace();
         }
 
-        /**Twitter twitter = TwitterFactory.getSingleton();
+        Twitter twitter = TwitterFactory.getSingleton();
         try {
-            twitter.updateStatus("Salut les boyz");
+            //twitter.updateStatus("Salut les boyz");
             twitter.directMessages().sendDirectMessage("@Yoann_Beelzed", "Coucouu");
         } catch (TwitterException e) {
             e.printStackTrace();
-        }**/
+        }
     }
 
 
