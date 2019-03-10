@@ -165,6 +165,24 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="927747153">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="BotPtut" />
@@ -175,7 +193,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -415,7 +433,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6179833248852" />
+        <entry key="$PROJECT_DIR$" value="6180965362005" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1012061179" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
@@ -579,10 +597,10 @@
         <option value="$PROJECT_DIR$/src/main/java/f.java" />
         <option value="$PROJECT_DIR$/src/main/java/NewJFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/Core/Answer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/.idea/.name" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/Core/SECRET.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
       </list>
     </option>
   </component>
@@ -604,45 +622,37 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="my-jda-bot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BotPtut" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="LeBotAnnick" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeBotAnnick" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="my-jda-bot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BotPtut" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="LeBotAnnick" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeBotAnnick" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="my-jda-bot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BotPtut" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-jda-bot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BotPtut" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="LeBotAnnick" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeBotAnnick" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="my-jda-bot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BotPtut" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="LeBotAnnick" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeBotAnnick" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Core" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -728,9 +738,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4893617" visible="true" weight="0.29932886" />
-      <window_info id="Structure" order="1" sideWeight="0.5106383" side_tool="true" visible="true" weight="0.29932886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48794326" visible="true" weight="0.3033557" />
+      <window_info id="Structure" order="1" sideWeight="0.5120567" side_tool="true" visible="true" weight="0.3033557" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -907,13 +918,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/.name">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.name" />
     <entry file="file://$PROJECT_DIR$/src/main/java/AudioPlayer/TrackScheduler.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/AudioPlayer/GuildMusicManager.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/AudioPlayer/JeuDiscord.java" />
@@ -921,7 +926,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
         </state>
       </provider>
     </entry>
