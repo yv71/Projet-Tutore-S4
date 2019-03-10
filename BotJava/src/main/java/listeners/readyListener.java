@@ -10,7 +10,7 @@ import java.util.List;
 
 public class readyListener extends ListenerAdapter {
     private String idChannel = null;
-
+    private String message = "JE FONCTIONNE ENFIN MON CREATEUR COMMENCAIT A VOULOIR ME JETER A LA DECHARGE WOUHOU";
     public void onReady(ReadyEvent event) {
 
         String out = "\nThis bot is running on following servers: \n";
@@ -29,10 +29,10 @@ public class readyListener extends ListenerAdapter {
                 };
             }
             if (idChannel !=null){
-               g.getTextChannelById(idChannel).sendMessage("I'm back from the dead, and u're gonna suffer, fool").queue();
+               g.getTextChannelById(idChannel).sendMessage(message).queue();
             }
             else {
-                g.getTextChannels().get(0).sendMessage("I'm back from the dead, and u're gonna suffer, fool").queue();
+                g.getTextChannels().get(0).sendMessage(message).queue();
             }
 
         }

@@ -1,6 +1,7 @@
 import Core.Answer;
 import Core.SECRET;
 import listeners.readyListener;
+import listeners.voiceListener;
 import net.dv8tion.jda.core.AccountType;
 import net.dv8tion.jda.core.JDA;
 import net.dv8tion.jda.core.JDABuilder;
@@ -8,7 +9,6 @@ import net.dv8tion.jda.core.hooks.ListenerAdapter;
 import javax.security.auth.login.LoginException;
 import javax.swing.*;
 
-import AudioPlayer.JeuDiscord;
 
 public class Main extends ListenerAdapter {
 
@@ -18,10 +18,10 @@ public class Main extends ListenerAdapter {
         String token = SECRET.token;
         builder.setToken(token);
         JDA jda = builder.build();
-        builder.addEventListener(new Answer(jda));
+        //builder.addEventListener(new Answer(jda));
         builder.addEventListener(new readyListener());
-        builder.build().getPresence().setGame(new JeuDiscord("Nothing"));
-        System.out.println(jda.getGuilds().size());
+        //builder.addEventListener(new voiceListener());
+        builder.build();
 
 
 
